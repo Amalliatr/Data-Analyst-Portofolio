@@ -52,27 +52,24 @@ The dashboard includes:
 ## Key Insights
 
 ### Fraud by Payment Method
-Credit Card transactions show the highest number of fraudulent activities, indicating higher payment risk exposure.
+Credit Card transactions show the highest fraud activity, indicating higher payment risk exposure.
 
 ### Fraud by Time
-Fraudulent transactions appear across multiple hours and indicate temporal patterns during specific periods.
+Fraudulent transactions occur across multiple hours and indicate temporal risk patterns during specific periods.
 
 ### Fraud by Country
-Several countries show disproportionately higher fraud activity compared to transaction volume.
+Several countries show elevated fraud activity compared to others, indicating potential high-risk regions.
 
-### Transaction Amount
-Fraud occurs in both:
-- low-value transactions (card testing)
-- high-value transactions (high-impact fraud)
-
-This indicates a multi-pattern fraud strategy.
+### Fraud Overview
+Fraud transactions account for approximately 22.9% of total transactions, highlighting the need for stronger fraud monitoring mechanisms.
 
 
 ## Business Recommendations
 - Implement risk scoring based on transaction time and payment method
 - Strengthen monitoring for high-risk countries
 - Apply additional verification for suspicious transactions
-- Develop multi-feature fraud detection instead of relying only on transaction amount
+- Develop multi-feature fraud detection strategies
+
 
 ## Skills Demonstrated
 - Data Cleaning
